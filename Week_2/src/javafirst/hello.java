@@ -14,6 +14,7 @@ public class hello {
 		int [] int_array = {1, 2, 3, 4}; 
 		
 		
+		
 		System.out.println("hello 김형석"); // 알고 싶은 코드 위에서 Shift + F2로 공식 문서로 이동 가능
 		System.out.println(age);
 		System.out.println(score);
