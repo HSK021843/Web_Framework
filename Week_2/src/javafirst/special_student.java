@@ -11,7 +11,7 @@ public class special_student extends student {
 		// TODO Auto-generated method stub
 		super.Work();
 		
-		System.out.println("Special Studen Work");
+		System.out.println("Special Student Work");
 	}
 
 	public int getSpecialTypeId() {
