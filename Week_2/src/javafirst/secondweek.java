@@ -110,6 +110,24 @@ public class secondweek {
 		System.out.println(ss);
 		ss.Work();
 		
+		
+		registable [] registables = new registable[4];
+		
+		for (int i = 0; i < 3; i++) {
+			registables[i] = students[i];
+		}
+		
+		registables[3] = ss;
+		
+		
+		for (registable reg : registables) {
+			reg.regist();
+		}
+		
+		for (registable reg : registables) {
+			reg.drop();
+		}
+		
 	}
 
 }

@@ -1,6 +1,6 @@
 package javafirst;
 
-class student {
+class student extends LivingCreatures implements registable {
 	@Override
 	public String toString() {
 		return "student [Name=" + Name + ", Age=" + Age + ", Id=" + Id + ", Address=" + Address + "]";
@@ -67,5 +67,24 @@ class student {
 	
 	void Work() {
 		System.out.println("Student Work");
+	}
+	
+	@Override
+	void breathing() {
+		System.out.println("huha");
+	}
+
+	@Override
+	public void regist() {
+		// TODO Auto-generated method stub
+		System.out.println("regist " + this.Name);
+		
+	}
+
+	@Override
+	public void drop() {
+		// TODO Auto-generated method stub
+		System.out.println("drop " + this.Name);
+		
 	}
 }
