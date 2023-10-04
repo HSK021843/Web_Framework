@@ -102,7 +102,7 @@ public class secondweek {
 			System.out.println(students[i].toString());
 			students[i].Work();
 		}
-		
+		  
 		special_student ss = new special_student("tester", 45, "ss12345", null, 2);
 		System.out.println(ss.getName());
 		System.out.println(ss.getAge());
